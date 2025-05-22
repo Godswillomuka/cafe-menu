@@ -35,6 +35,24 @@ h1 {
   margin-bottom: 20px;
 }
 
+
+/* === PROMO BANNER === */
+.promo {
+  background-color: #ffccbc;
+  padding: 15px 20px;
+  text-align: center;
+  border-left: 6px solid #ef6c00;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.promo h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #e65100;
+}
+
 /* Section Divider */
 hr {
   height: 2px;
@@ -82,8 +100,19 @@ img {
   color: #5D4037;
 }
 
+.price::before {
+  content: "$";
+}
+
 .bottom-line {
   margin-top: 30px;
+}
+
+/* Special Item Highlight */
+.special {
+  background-color: #fff3e0;
+  border-left: 4px solid #ef6c00;
+  padding-left: 10px;
 }
 
 /* Specials Section */
